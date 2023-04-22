@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    body
+    {
+        position: relative;
+        min-height: 100vh;
+    }
+    #body_tienda
+    {
+        background-color: rgb(255, 255, 255);
+    }
+    .i-1
+    {
+        z-index: 1;
+    }
+    .montserrat
+    {
+        font-family: 'Montserrat';
+    }
+    .bold-1
+    {
+        font-weight: 100;
+        
+    }
+    .bold-2
+    {
+        font-weight: 200;
+    }
+    .bold-3
+    {
+        font-weight: 300;
+
+    }
+    .bold-4
+    {
+        font-weight: 400;
+
+    }
+    .bold-5
+    {
+        font-weight: 500;
+
+    }
+    .bold-6
+    {
+        font-weight: 600;
+
+    }
+    .bold-7
+    {
+        font-weight: 700;
+
+    }
+
+    .tipografia1
+    {
+        color: rgb(255, 255, 255);
+        position: relative;
+        bottom: -5px;
+        font-family: "Bebas Neue";
+        letter-spacing: 2px;
+    }
+    .tipografia1_2
+    {
+        
+        color: rgb(255, 255, 255);
+        position: relative;
+        bottom: -4px;
+        letter-spacing: 2px;
+        font-family: "Bebas Neue";
+        
+    }
+    .tipografia2{
+        font-family: 'Readex Pro', sans-serif;
+        font-size: 80%;
+        position: relative;
+        top: 5px;
+    }
+    
+    .transicion1
+    {
+        
+        transition: all 0.4s;
+    }
+    .fx-opacidad
+    {
+        transition: all 0.2s;
+    }
+    .fx-opacidad:hover
+    {
+        opacity: 50%;
+    }
+ 
+    .fx2
+    {
+        font-size: 0%;
+        
+    }
+    .fx2_act
+    {
+        font-size: 90%;
+        
+    }
+    .input-group-text
+    {
+        background-color: rgba(250, 235, 215, 0);
+    }
+    #buscar
+    {
+        outline: none;
+    }
+    .borde-animado
+    {
+        border-style: solid;
+        border-width: 1px;
+        transition: all 0.2s;
+        border-color: #B5BFC2;
+    }
+    .borde-animado:hover
+    {
+        border-color: #198DB4;
+    }
+    .f-gris
+    {
+        background-color: #F5F5F5;
+        
+    }
+    .f-gris
+    {
+        background-color: #F5F5F5;
+        
+    }
+    .f-celeste
+    {
+        background-color: #23A6F0;
+        
+    }
+    .f-rosa
+    {
+        background-color: #f0234f;
+        
+    }
+    .f-gris2
+    {
+        background-color: #252525;
+        
+    }
+    .c-gris
+    {
+        color: #9CA3AF;
+    }
+    .c-rosa
+    {
+        color: #F03A69;
+    }
+    .c-celeste
+    {
+        color: #23A6F0;
+    }
+    .c-celeste-oscuro
+    {
+        color: #00333a;
+    }
+    .f-celeste-o
+    {
+        background-color: #004552;
+    }
+    .input-negro
+    {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #b4b4b4;
+        border-radius: 20px;
+        height: 25px;
+        width: 25px; 
+        background-color: #000000;
+        transition: all 0.2s;
+    }
+    .input-negro:hover
+    {
+        background-color: #9b9b9b;
+    }
+    .borde-sombra
+    {
+        box-shadow: 0 0 0 0.3rem #00657741;
+    }
+    input[type=radio]
+    {
+        opacity: 100%;
+    }
+   
+    .input-blanco
+    {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #b4b4b4;
+        border-radius: 20px;
+        height: 25px;
+        width: 25px; 
+        background-color: #ffffff;
+        transition: all 0.2s;
+        
+    }
+    .input-blanco:hover
+    {
+        background-color: #9b9b9b;
+    }
+    .f-blanco
+    {
+        background-color: rgb(255, 255, 255);
+    }
+    .f-negro
+    {
+        background-color: #000000;
+    }
+    .f-negro2
+    {
+        background-color: #252525;
+    }
+    .f-invisible
+    {
+        background-color: #ffffff00;
+    }
+    .f-gris
+    {
+        background-color: rgb(226, 226, 226);
+    }
+    .fd-1
+    {
+        background: rgb(7,124,163);
+        background: linear-gradient(315deg, rgba(7,124,163,1) 0%, rgba(240,58,105,1) 100%);
+    }
+    .fd-2
+    {
+        background: rgb(7,124,163);
+        background: linear-gradient(315deg, rgba(7,124,163,1) 0%, rgba(240,58,105,1) 100%);
+    }
+    .form-control
+    {
+        border-width: 2px;
+    }
+    .form-control:hover 
+    {
+      border-color: #198DB4;
+    }
+    .form-control:active 
+    {
+        outline:none;
+        
+    }
+    .form-control:focus {
+        border-color: none;
+        box-shadow: none;
+      }
+      input {
+        caret-color: #077CA3;
+      }
+    .object-0
+    {
+        object-fit: none;
+    }
+    .object-1
+    {
+        object-fit: contain;
+    }
+    .object-2
+    {
+        object-fit: cover;
+    }
+    .object-3
+    {
+        object-fit: fill; 
+    }
+    .object-4
+    {
+        object-fit: scale-down; 
+    }
+    img
+    {
+        object-fit: cover;
+    }
+    .mostrador-productos
+    {
+        
+       
+    }
+    .quehacemos
+    {
+        
+        width: 200px;
+        height: 520px;;
+    }
+    .boton-nav
+    {
+        color: #ffffff;
+        transition: all 0.2s;
+    }
+    .boton-nav-hamburger
+    {
+
+        text-decoration-line: none;
+        color: #00272e;
+        transition: all 0.2s;
+    }
+    .boton-nav:hover
+   {
+        color: #5ba7b4;
+   }
+   .boton-nav-hamburger:hover
+   {
+        color: #5ba7b4;
+   }
+    
+    .display-none
+    {
+        display: none;
+    }
+    .menu-ham
+    {
+        background-color: #ffffff;
+        position: absolute;
+        z-index: 100;
+        animation-name: animacion1;
+        animation-duration: 0.5s;
+    }
+    .menu-filter
+    {
+        background-color: #ffffff;
+        position: fixed;
+        left: 25%;
+        z-index: 100;
+        animation-name: animacion1;
+        animation-duration: 0.5s;
+        
+    }
+    
+    @keyframes animacion1 {
+    0%   {top:100%}
+    100% {top:0%;display: none;}
+    }
+
+    
+    .modal-ordenar
+    {
+        height: 120px;
+        animation-name: animacion2;
+        animation-duration: 0.5s;
+    }
+    @keyframes animacion2 {
+        0%   {height:0px;}
+        100% {height:120px;}
+        }
+
+    #login
+    {
+        
+        position: relative;
+        animation-name: login;
+        animation-duration: 0.4s;
+    }
+    #logo_login
+    {
+        position: relative;
+        animation-name: login;
+        animation-duration: 1s;
+    }
+    @keyframes login {
+        0%   {top:100vh;}
+        100% {top:0vh;}
+    }
+    .m3
+    {
+        width: 350px;
+        position: fixed;
+        animation-name: m3;
+        animation-duration: 0.5s;
+    }
+    @keyframes m3 {
+        0%   {left:-1000px;}
+        100% {left:0;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*HEADER*/
+    #logo
+    {
+        width: 150px;
+        height: 150px;
+    }
+    
+    #fondo_header
+    {
+        background: rgb(7,124,163);
+background: linear-gradient(150deg, rgba(7,124,163,1) 0%, rgba(240,58,105,1) 100%);
+    }
+    .columnas_header
+    {  
+        border-right: 2px solid rgb(255, 255, 255);
+    }
+    .icon_header
+    {
+        position: relative;
+        top: 3px;
+        font-size: 20px;
+    }
+    
+    .despliegue_tienda_desc
+    {
+        
+        background-color: rgb(255, 255, 255);
+        box-shadow:  0 10px 20px 0 rgba(0, 0, 0, 0.178);
+        position: absolute;
+        top: -300%; z-index: 1;
+        width: 300px;
+        opacity: 0;
+    }
+    .despliegue_tienda_act
+    {
+        background-color: rgb(255, 255, 255);
+        box-shadow:  0 10px 20px 0 rgba(0, 0, 0, 0.178);
+        position: absolute;
+        top: 100%; z-index: 1;
+        width: 300px;  
+        opacity: 100%;
+    }
+    
+    #fondo_columnaTienda_header
+    {
+        position: relative;
+    }
+    .btn_en_tienda
+    {
+        border-radius: 0;
+        border: 0;
+        
+        
+    }
+    .btn_en_tienda:hover
+    {
+        
+        background-color: rgb(235, 235, 235);
+    }
+    .titulosEnTienda
+    {
+        border-bottom: 3px solid rgb(207, 207, 207);
+    }
+    nav > ul > .col
+    {
+        list-style: none;
+        padding: 0;
+        position: relative;
+    }
+    nav  ul  li ul
+    {
+        list-style: none;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+        z-index: 2;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.2s ease;
+    }
+    nav  ul  .col:hover  ul
+    {
+        
+        visibility: visible;
+        opacity: 1;
+    }
+    .submenu
+    {
+        background-color: white;
+        box-shadow:  0 10px 20px 0 rgba(0, 0, 0, 0.178);
+        width: 250px;
+    }
+    
+    /*CUERPO*/
+    .cuadrado
+    {
+        width: 500px;
+        height: 10px;
+        background-color: aquamarine;
+        z-index: 2;
+    }
+    .tarjeta1
+    {
+        
+        
+        overflow: hidden;
+        
+        position: relative
+        
+    }
+    .tarjeta2
+    {
+        background-color: black;
+        height: 500px;
+        overflow: hidden;
+        
+        position: relative
+        
+    }
+    .tarjeta2 > .crop4 {
+        position:absolute;
+        left: -100%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        opacity: 70%;
+        
+    }
+    .tarjeta1 > .crop {
+        position:absolute;
+        left: -50%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        opacity: 70%;
+        
+    }
+    .tarjeta1 > .crop2 {
+        position:absolute;
+        left: -100%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        opacity: 70%;
+    }
+    .tarjeta1 > .crop3 {
+        position:absolute;
+        left: -100%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        opacity: 70%;
+    }
+    .center-text
+    {
+        position: relative;
+        bottom: -2px;
+    }
+    
+    
+    
+    #icon_carrusel
+    {
+        color: rgb(17, 17, 17);
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .icon_redes_sociales
+    {
+        color: rgb(255, 255, 255);
+        transition: all 0.4s;
+        
+    }
+    .icon_redes_sociales:hover
+    {
+        color: rgb(148, 148, 148);
+        
+    }
+
+    .boton1
+    {
+        border-radius: 30px;
+        border: 3px solid rgb(255, 255, 255);
+        width: 200px;
+        transition: all linear 0.1s;
+        text-decoration-line: none;
+    }
+    .boton1:hover
+    {
+        
+        background-color: rgba(255, 255, 255, 0.192);
+        
+    }
+    .boton2
+    {
+        border: none;
+        border-radius: 30px;
+        background: rgb(240,58,105);
+        background: linear-gradient(150deg, rgba(240,58,105,1) 0%, rgba(34,188,240,1) 100%);
+        
+        transition: all linear 0.1s;
+        text-decoration-line: none;
+    }
+    .boton2:hover
+    {
+        
+        
+        box-shadow: 0 0 0 0.2rem rgba(46, 136, 163, 0.25);
+
+    }
+    .boton3
+    {
+        background-color: #22BCF0;
+        border-radius: 30px;
+        transition: all linear 0.1s;
+        text-decoration-line: none;
+        
+    }
+    .boton3:hover
+    {
+        background-color: #198DB4;
+        
+        
+    }
+    .boton4
+    {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #23A6F0;
+        border-radius: 7px;
+        transition: all linear 0.1s;
+        text-decoration: none;
+    }
+    .boton4:hover
+    {
+        border-color: #006c86;
+        color: #006c86;
+        
+        
+    }
+    
+    #container_productos
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card_productos
+    {
+        
+        border-radius: 15px;
+
+    }
+   .text-info-nav:hover
+   {
+    color: #9CA3AF;
+   }
+    
+    .filter
+    {
+        display: none;
+    }
+    #product
+    {
+        
+    }
+    #modal_menu_filtro
+    {
+        height: 150px;
+    }
+    .etiqueta
+    {
+        border-radius: 75px;
+        border: solid;
+        border-color: #BE9FF6;
+        border-width: 2px;
+        color: #784DC7;
+        background-color: #E9DFFC;
+    }
+
+
+
+    
+    .text-footer
+    {
+        color: rgb(255, 255, 255);
+        display: flex;
+    }
+
+
+    #s1
+    {
+        height: 500px;
+        width: 900px;
+    }
+    #btn_lupa
+    {
+        transition: transform .2s;
+    }
+
+    #btn_lupa:hover
+    {
+        transform: scale(1.1);
+    }
+    
+    .h-1
+    {
+        color: #ffffff;
+        transition: all 0.2s;
+    }
+    .hf-1
+    {
+        transition: all 0.2s;
+    }
+    .hf-1:hover
+    {
+        background-color: #500000;
+        transition: all 0.2s;
+    }
+    .h-1:hover
+    {
+        color: #b1b1b1;
+    }
+    .decoration-0
+    {
+        outline: none;
+        border: none;
+        text-decoration-line: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    @media (max-width: 991px)
+    {
+        
+    }
+
+
+    @media (max-width: 766px)
+    {
+        #menu-pc
+        {
+            
+            display: none;
+        }
+        #menu-movil
+        {
+            
+        }
+    }
+    @media (min-width: 767px)
+    {
+        #menu-pc
+        {
+            
+            
+        }
+        #menu-movil
+        {
+            
+            display: none;
+        }
+    }
+    @media (max-width: 1199px)
+    {
+        #menu_filtros_pc
+        {
+            display: none;
+        }
+        #ordenar2
+        {
+            display: none;
+        }
+    }
+    @media (min-width: 1200px)
+    {
+        #menu_filtros_movil
+        {
+            display: none;
+        }
+    }
+
+    
